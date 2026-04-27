@@ -1,0 +1,11 @@
+name: Github-workflow-test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simple workflow setup
+        run: echo "Simple workflow setup"
